@@ -17,8 +17,12 @@ REQUIRED_REFERENCES = [
     "lean-adapter.md",
     "optionforge-adapter.md",
     "prompt-map.md",
+    "qteasy-adapter.md",
+    "rqalpha-adapter.md",
     "strategy-design-workflow.md",
+    "tqsdk-adapter.md",
     "validation-matrix.md",
+    "vnpy-adapter.md",
 ]
 FORBIDDEN_CORE_PATTERNS = [
     "strategy_spec.toml",

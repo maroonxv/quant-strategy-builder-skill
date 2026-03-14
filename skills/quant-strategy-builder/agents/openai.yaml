@@ -1,4 +1,4 @@
 interface:
   display_name: "Quant Strategy Builder"
-  short_description: "Design and verify quant trading strategies."
-  default_prompt: "Use $quant-strategy-builder to design or adapt a quantitative trading strategy, update the right files, and verify it with evidence."
+  short_description: "China-market-first quant strategy design and verification."
+  default_prompt: "Use $quant-strategy-builder to design or adapt a China-market quantitative trading strategy, update the right files, and verify it with evidence."
