@@ -1,6 +1,6 @@
 # Quant Strategy Builder
 
-[![Validate Skill](https://github.com/maroonxv/optionforge-strategy-builder-skill/actions/workflows/validate-skill.yml/badge.svg)](https://github.com/maroonxv/optionforge-strategy-builder-skill/actions/workflows/validate-skill.yml)
+[![Validate Skill](https://github.com/maroonxv/quant-strategy-builder-skill/actions/workflows/validate-skill.yml/badge.svg)](https://github.com/maroonxv/quant-strategy-builder-skill/actions/workflows/validate-skill.yml)
 
 English-first, with concise Chinese notes for maintainers and contributors.
 
