@@ -43,7 +43,7 @@ Check the workspace before editing:
 - **OptionForge**: `strategy_spec.toml`, `.focus/context.json`, `src/strategy/`, or `python -m src.cli.app`
 - **Unknown / custom stack**: infer the architecture from strategy classes, config files, and test entrypoints before changing anything
 
-If a framework is detected, load only the matching reference file. If the workspace is custom, stay framework-agnostic and map behavior to the repo's nearest strategy seams.
+If a framework is detected, load only the matching adapter file. If the workspace is custom, stay framework-agnostic and map behavior to the repo's nearest strategy seams.
 
 ## Default Edit Loop
 
@@ -80,5 +80,10 @@ Every delivery should state:
 
 Read only the file that matches the job:
 
-1. `references/strategy-delivery-checklist.md` for a framework-agnostic strategy-design and evidence loop
-2. `references/optionforge-compat.md` when the workspace is clearly OptionForge-shaped
+1. `references/strategy-design-workflow.md` for framework-agnostic strategy decomposition and implementation planning
+2. `references/validation-matrix.md` for matching changes to the cheapest convincing proof
+3. `references/prompt-map.md` for common strategy archetypes and reusable prompt starters
+4. `references/lean-adapter.md` when the repo is QuantConnect / LEAN based
+5. `references/freqtrade-adapter.md` when the repo is Freqtrade based
+6. `references/backtrader-adapter.md` when the repo is Backtrader based
+7. `references/optionforge-adapter.md` when the repo is clearly OptionForge-shaped

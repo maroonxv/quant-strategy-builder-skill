@@ -1,4 +1,4 @@
-# OptionForge Compatibility Notes
+# OptionForge Adapter
 
 Load this reference only when the workspace is clearly an OptionForge checkout or when the user explicitly asks for OptionForge compatibility.
 
@@ -38,12 +38,8 @@ When these disagree, prefer the generator-backed source over generated markdown.
 - Treat `src/main`, `src/backtesting`, `src/web`, and `src/cli` as reference surfaces unless the task directly targets them.
 - Explain any editable-surface expansion in the delivery summary.
 
-## Delivery Requirements
+## Common Pitfalls
 
-State:
-
-- which workflow entrypoints were used
-- which source-of-truth assets were consulted
-- whether edits stayed inside the editable surface
-- which structured verification steps ran
-- whether `tests/TEST.md` or `artifacts/*/latest.json` changed
+- hardcoding trading rules in orchestration glue instead of domain services
+- editing generated `.focus/*` files when the generator should be refreshed instead
+- skipping JSON artifacts and falling back to narrative-only validation
