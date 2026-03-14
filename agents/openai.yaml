@@ -1,4 +1,0 @@
-interface:
-  display_name: "OptionForge Strategy Builder"
-  short_description: "Build and verify OptionForge trading strategies."
-  default_prompt: "Use $optionforge-strategy-builder to design or modify an OptionForge strategy, update the right files, and verify the changes safely."
