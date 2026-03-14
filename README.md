@@ -1,5 +1,7 @@
 # Quant Strategy Builder
 
+[![Validate Skill](https://github.com/maroonxv/optionforge-strategy-builder-skill/actions/workflows/validate-skill.yml/badge.svg)](https://github.com/maroonxv/optionforge-strategy-builder-skill/actions/workflows/validate-skill.yml)
+
 English-first, with concise Chinese notes for maintainers and contributors.
 
 `quant-strategy-builder` is a reusable Codex skill for designing, adapting, and verifying quantitative trading strategies across multiple frameworks. It helps an agent turn a vague market idea into a smaller, safer change set with explicit checks for signal logic, position sizing, risk controls, backtests, and delivery evidence.
@@ -65,6 +67,14 @@ More prompts live in [examples/prompt-gallery.md](examples/prompt-gallery.md).
         |-- SKILL.md
         |-- agents/openai.yaml
         `-- references/
+```
+
+## Validate
+
+Run the repository-local validator before opening a PR:
+
+```powershell
+python .\scripts\validate_skill.py
 ```
 
 ## What Makes It Star-Worthy

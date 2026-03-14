@@ -40,7 +40,7 @@ Check the workspace before editing:
 - **LEAN**: `AlgorithmImports.py`, `*.csproj`, `QuantConnect/`, `Research.ipynb`, or `QCAlgorithm` subclasses
 - **Freqtrade**: `freqtrade/`, `user_data/strategies/`, `config.json`, `IStrategy` subclasses
 - **Backtrader**: `bt.Strategy`, `Cerebro`, `backtrader` imports, `strategies/` or notebook-based research
-- **OptionForge**: `strategy_spec.toml`, `.focus/context.json`, `src/strategy/`, or `python -m src.cli.app`
+- **OptionForge**: repo naming, docs, or task wording clearly indicate OptionForge; then load the dedicated adapter reference before editing
 - **Unknown / custom stack**: infer the architecture from strategy classes, config files, and test entrypoints before changing anything
 
 If a framework is detected, load only the matching adapter file. If the workspace is custom, stay framework-agnostic and map behavior to the repo's nearest strategy seams.
